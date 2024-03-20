@@ -22,9 +22,9 @@ import java.nio.charset.Charset;
 @ComponentScan(basePackages = "com.icnm")
 @EnableCaching
 @EnableScheduling
-public class ICNMAgentServiceApplication {
+public class ICNMServiceApplication {
     public static void main(String[] args) {
-        SpringApplication.run(ICNMAgentServiceApplication.class, args);
+        SpringApplication.run(ICNMServiceApplication.class, args);
     }
 
     @Bean
