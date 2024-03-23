@@ -7,7 +7,7 @@ import java.util.Date;
 /**
  * @version V2.3
  * @ClassName:SysLoadState.java
- * @author: wgcloud
+ * @author: icnm
  * @date: 2019年11月16日
  * @Description: uptime查看系统负载状态
  * @Copyright: 2017-2024 www.wgstart.com. All rights reserved.

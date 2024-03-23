@@ -1,7 +1,7 @@
 server:
   port: 9997
   servlet:
-    context-path: /wgcloud-agent
+    context-path: /icnm-agent
 spring:
   application:
     name: icnm-agent
@@ -13,7 +13,7 @@ logging:
 
 #自定义配置参数
 base:
-  #wgcloud-server端访问地址
+  #icnm-server端访问地址
   serverUrl: http://localhost:9999
   #本机ip，不要用localhost或127.0.0.1
   bindIp: 172.20.6.226

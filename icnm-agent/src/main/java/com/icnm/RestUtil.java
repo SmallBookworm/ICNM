@@ -13,7 +13,7 @@ import org.springframework.web.client.RestTemplate;
 /**
  * @version V2.3
  * @ClassName:RestUtil.java
- * @author: wgcloud
+ * @author: icnm
  * @date: 2019年11月16日
  * @Description: RestUtil.java
  * @Copyright: 2017-2024 www.wgstart.com. All rights reserved.

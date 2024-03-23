@@ -25,7 +25,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * @version V2.3
  * @ClassName:ScheduledTask.java
- * @author: wgcloud
+ * @author: icnm
  * @date: 2019年11月16日
  * @Description: ScheduledTask.java
  * @Copyright: 2017-2024 www.wgstart.com. All rights reserved.
@@ -148,7 +148,7 @@ public class ScheduledTask {
             if (!StringUtils.isEmpty(logInfo.getInfoContent())) {
                 jsonObject.put("logInfo", logInfo);
             }
-            restUtil.post(commonConfig.getServerUrl() + "/wgcloud/agent/minTask", jsonObject);
+            restUtil.post(commonConfig.getServerUrl() + "/icnm/agent/minTask", jsonObject);
         }
 
     }
@@ -168,7 +168,7 @@ public class ScheduledTask {
         try {
             JSONObject paramsJson = new JSONObject();
             paramsJson.put("hostname", commonConfig.getBindIp());
-            String resultJson = restUtil.post(commonConfig.getServerUrl() + "/wgcloud/appInfo/agentList", paramsJson);
+            String resultJson = restUtil.post(commonConfig.getServerUrl() + "/icnm/appInfo/agentList", paramsJson);
             if (resultJson != null) {
                 JSONArray resultArray = JSONUtil.parseArray(resultJson);
                 appInfoList.clear();
@@ -183,7 +183,7 @@ public class ScheduledTask {
             if (!StringUtils.isEmpty(logInfo.getInfoContent())) {
                 jsonObject.put("logInfo", logInfo);
             }
-            restUtil.post(commonConfig.getServerUrl() + "/wgcloud/agent/minTask", jsonObject);
+            restUtil.post(commonConfig.getServerUrl() + "/icnm/agent/minTask", jsonObject);
         }
     }
 

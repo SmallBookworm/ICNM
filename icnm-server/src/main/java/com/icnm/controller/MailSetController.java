@@ -25,7 +25,7 @@ import java.util.Map;
  * @author: http://www.wgstart.com
  * @date: 2019年11月16日
  * @Description: MailSetController.java
- * @Copyright: 2017-2024 wgcloud. All rights reserved.
+ * @Copyright: 2017-2024 icnm. All rights reserved.
  */
 @Controller
 @RequestMapping("/mailset")
@@ -115,7 +115,7 @@ public class MailSetController {
                 mailSetService.updateById(mailSet);
             }
             StaticKeys.mailSet = mailSet;
-            result = WarnMailUtil.sendMail(mailSet.getToMail(), "WGCLOUD测试邮件发送", "WGCLOUD测试邮件发送");
+            result = WarnMailUtil.sendMail(mailSet.getToMail(), "icnm测试邮件发送", "icnm测试邮件发送");
         } catch (Exception e) {
             logger.error("测试邮件设置信息错误：", e);
             logInfoService.save("测试邮件设置信息错误", e.toString(), StaticKeys.LOG_ERROR);

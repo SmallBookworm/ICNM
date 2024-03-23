@@ -5,7 +5,7 @@ import java.util.Date;
 /**
  * @version V2.3
  * @ClassName:AccountInfo.java
- * @author: wgcloud
+ * @author: icnm
  * @date: 2019年11月16日
  * @Description: AccountInfo.java
  * @Copyright: 2017-2024 www.wgstart.com. All rights reserved.

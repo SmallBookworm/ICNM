@@ -19,7 +19,7 @@ import org.springframework.web.client.RestTemplate;
  * @author: http://www.wgstart.com
  * @date: 2019年11月16日
  * @Description: RestUtil.java
- * @Copyright: 2017-2022 wgcloud. All rights reserved.
+ * @Copyright: 2017-2022 icnm. All rights reserved.
  */
 @Component
 public class RestUtil {

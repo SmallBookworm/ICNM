@@ -5,7 +5,7 @@ import java.util.Date;
 /**
  * @version V2.3
  * @ClassName:HostInfo.java
- * @author: wgcloud
+ * @author: icnm
  * @date: 2019年11月16日
  * @Description: host的IP密码等信息
  * @Copyright: 2017-2024 www.wgstart.com. All rights reserved.

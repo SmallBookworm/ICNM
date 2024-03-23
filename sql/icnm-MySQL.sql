@@ -4,7 +4,7 @@ Navicat MySQL Data Transfer
 Source Server         : 127.0.0.1
 Source Server Version : 50717
 Source Host           : localhost:3306
-Source Database       : wgcloud
+Source Database       : icnm
 
 Target Server Type    : MYSQL
 Target Server Version : 50717

@@ -21,7 +21,7 @@ import java.io.IOException;
  * @author: http://www.wgstart.com
  * @date: 2019年11月16日
  * @Description: http请求过滤器，拦截不是从路由过来的请求
- * @Copyright: 2017-2024 wgcloud. All rights reserved.
+ * @Copyright: 2017-2024 icnm. All rights reserved.
  */
 @WebFilter(filterName = "authRestFilter", urlPatterns = {"/*"})
 public class AuthRestFilter implements Filter {
@@ -61,7 +61,7 @@ public class AuthRestFilter implements Filter {
             }
         }
         if (accountInfo == null) {
-            response.sendRedirect("/wgcloud/login/toLogin");
+            response.sendRedirect("/icnm/login/toLogin");
             return;
         }
         filterChain.doFilter(servletRequest, servletResponse);

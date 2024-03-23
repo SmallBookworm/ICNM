@@ -19,13 +19,13 @@ import java.util.Date;
  * @author: http://www.wgstart.com
  * @date: 2019年11月16日
  * @Description: WarnMailUtil.java
- * @Copyright: 2017-2022 wgcloud. All rights reserved.
+ * @Copyright: 2017-2022 icnm. All rights reserved.
  */
 public class WarnMailUtil {
 
     private static final Logger logger = LoggerFactory.getLogger(WarnMailUtil.class);
 
-    public static final String content_suffix = "<p><a target='_blank' href='http://www.wgstart.com'>WGCLOUD</a>敬上";
+    public static final String content_suffix = "<p><a target='_blank' href='http://www.wgstart.com'>icnm</a>敬上";
 
     private static LogInfoService logInfoService = (LogInfoService) ApplicationContextHelper.getBean(LogInfoService.class);
     private static MailConfig mailConfig = (MailConfig) ApplicationContextHelper.getBean(MailConfig.class);
@@ -271,7 +271,7 @@ public class WarnMailUtil {
             }
             email.setAuthenticator(new DefaultAuthenticator(StaticKeys.mailSet.getFromMailName(), StaticKeys.mailSet.getFromPwd()));
             email.setFrom(StaticKeys.mailSet.getFromMailName());//发信者
-            email.setSubject("[WGCLOUD] " + mailTitle);//标题
+            email.setSubject("[icnm] " + mailTitle);//标题
             email.setCharset("UTF-8");//编码格式
             email.setHtmlMsg(mailContent + content_suffix);//内容
             email.addTo(mails.split(";"));

@@ -716,11 +716,11 @@ public class SnmpUtil {
 //        mySnmpUtil.collectCPU();        System.out.println(System.lineSeparator());
 //        mySnmpUtil.collectMemory();        System.out.println(System.lineSeparator());
 //        mySnmpUtil.collectDisk();        System.out.println(System.lineSeparator());
-//        mySnmpUtil.collectProcess();        System.out.println(System.lineSeparator());
+        mySnmpUtil.collectProcess();        System.out.println(System.lineSeparator());
 //        mySnmpUtil.collectService();        System.out.println(System.lineSeparator());
 //        mySnmpUtil.collectInterface();        System.out.println(System.lineSeparator());
-        mySnmpUtil.collectPort();        System.out.println(System.lineSeparator());
-        mySnmpUtil.collectSoft();
+//        mySnmpUtil.collectPort();        System.out.println(System.lineSeparator());
+//        mySnmpUtil.collectSoft();
 
 //下面这个方法需要有子节点，遍历子节点然后从子节点中拿数据，这里是找华为的实体索引
 //        SnmpUtil mySnmpUtil = new SnmpUtil("127.0.0.1","161","tuantiming","1.3.6.1.2.1.47.1.1.1.1.5");

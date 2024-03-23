@@ -7,7 +7,7 @@ import java.util.Date;
 /**
  * @version V2.3
  * @ClassName:MemState.java
- * @author: wgcloud
+ * @author: icnm
  * @date: 2019年11月16日
  * @Description: 查看内存使用情况
  * @Copyright: 2017-2024 www.wgstart.com. All rights reserved.

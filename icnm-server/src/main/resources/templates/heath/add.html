@@ -56,7 +56,7 @@
                 </div>
                 <div class="form-group">
                     <label for="fromPwd"><font color="red">*</font>服务接口URL（必须为http，get请求方式，返回状态码为200即为正常）</label>
-                    <input type="text" autocomplete="off"  th:value="${heathMonitor.heathUrl}" class="validate[required,maxSize[255]] form-control" name="heathUrl" id="heathUrl" placeholder="如http://192.168.1.1:9999/wgcloud/heath">
+                    <input type="text" autocomplete="off"  th:value="${heathMonitor.heathUrl}" class="validate[required,maxSize[255]] form-control" name="heathUrl" id="heathUrl" placeholder="如http://192.168.1.1:9999/icnm/heath">
                 </div>
             </div>
             <!-- /.card-body -->
@@ -92,7 +92,7 @@
         $("#form1").validationEngine();
     });
     function goback() {
-        window.location.href = "/wgcloud/heathMonitor/list";
+        window.location.href = "/icnm/heathMonitor/list";
     }
 </script>
 </body>

@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 /**
  * @version V2.3
  * @ClassName:ApplicationContextHelper.java
- * @author: wgcloud
+ * @author: icnm
  * @date: 2019年11月16日
  * @Description: ApplicationContextHelper.java
  * @Copyright: 2017-2024 www.wgstart.com. All rights reserved.

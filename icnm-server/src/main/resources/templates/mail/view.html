@@ -121,13 +121,13 @@
     });
 
     function test() {
-        $("#form1").attr("action","/wgcloud/mailset/test");
+        $("#form1").attr("action","/icnm/mailset/test");
         $("#form1").submit();
     }
 
     function del(id) {
         if(confirm('你确定要删除吗？')){
-            window.location.href = "/wgcloud/mailset/del?id="+id;
+            window.location.href = "/icnm/mailset/del?id="+id;
         }
     }
 

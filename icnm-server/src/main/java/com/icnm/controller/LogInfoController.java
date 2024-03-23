@@ -23,7 +23,7 @@ import java.util.Map;
  * @author: http://www.wgstart.com
  * @date: 2019年11月16日
  * @Description: LogInfoController.java
- * @Copyright: 2017-2024 wgcloud. All rights reserved.
+ * @Copyright: 2017-2024 icnm. All rights reserved.
  */
 @Controller
 @RequestMapping("/log")
